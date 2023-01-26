@@ -45,11 +45,6 @@ public class ChatController {
         setSysProperties();
         initChannelList();
         messageList.setItems(messages);
-
-        //To speed things up when testing
-        ipField.setText("127.0.0.1");
-        portField.setText("60000");
-        listenField.setText("6666");
     }
 
     /**

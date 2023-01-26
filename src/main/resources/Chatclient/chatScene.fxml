@@ -10,11 +10,11 @@
       <ListView fx:id="messageList" layoutX="225.0" layoutY="56.0" prefHeight="237.0" prefWidth="441.0" />
       <TextField fx:id="messageField" layoutX="225.0" layoutY="306.0" onAction="#getMessage" prefHeight="57.0" prefWidth="441.0" />
       <ListView fx:id="channelList" layoutX="14.0" layoutY="56.0" prefHeight="307.0" prefWidth="200.0" />
-      <Button fx:id="connectButton" layoutX="560.0" layoutY="14.0" mnemonicParsing="false" onAction="#connectAction" text="Connect" />
-      <TextField fx:id="nameField" alignment="CENTER" layoutX="47.0" layoutY="14.0" prefHeight="24.0" prefWidth="135.0" text="Username" />
-      <TextField fx:id="ipField" alignment="CENTER" layoutX="326.0" layoutY="14.0" prefHeight="24.0" prefWidth="135.0" text="IP" />
-      <TextField fx:id="portField" alignment="CENTER" layoutX="478.0" layoutY="14.0" prefHeight="24.0" prefWidth="62.0" text="Port" />
+      <Button fx:id="connectButton" layoutX="576.0" layoutY="14.0" mnemonicParsing="false" onAction="#connectAction" text="Connect" />
+      <TextField fx:id="nameField" alignment="CENTER" layoutX="34.0" layoutY="14.0" prefHeight="24.0" prefWidth="135.0" promptText="Username" />
+      <TextField fx:id="ipField" alignment="CENTER" layoutX="352.0" layoutY="14.0" prefHeight="24.0" prefWidth="135.0" promptText="Server IP" />
+      <TextField fx:id="portField" alignment="CENTER" layoutX="497.0" layoutY="14.0" prefHeight="24.0" prefWidth="62.0" promptText="Port" />
       <Button fx:id="recordButton" layoutX="277.0" layoutY="381.0" mnemonicParsing="false" onMousePressed="#record" onMouseReleased="#stopRecord" text="Transmit audio" />
-      <TextField fx:id="listenField" layoutX="246.0" layoutY="14.0" prefHeight="14.0" prefWidth="62.0" />
+      <TextField fx:id="listenField" layoutX="181.0" layoutY="14.0" prefHeight="24.0" prefWidth="88.0" promptText="Listen Port" />
    </children>
 </AnchorPane>
